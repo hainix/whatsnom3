@@ -4,11 +4,7 @@ import {ViewChild} from '@angular/core';
 import {StatusBar} from 'ionic-native';
 
 // import pages
-import {WelcomePage} from '../pages/welcome/welcome';
-import {LoginPage} from '../pages/login/login';
 import {MainTabsPage} from '../pages/main-tabs/main-tabs';
-import {SettingPage} from '../pages/setting/setting';
-import {FindFriendPage} from '../pages/find-friend/find-friend';
 import {HotelsPage} from '../pages/hotels/hotels';
 import {RestaurantsPage} from '../pages/restaurants/restaurants';
 import {AttractionsPage} from '../pages/attractions/attractions';
@@ -34,12 +30,6 @@ export class MyApp {
     },
 
     {
-      title: 'Invite Friend',
-      count: 0,
-      component: FindFriendPage
-    },
-
-    {
       title: 'Hotels',
       count: 0,
       component: HotelsPage
@@ -57,26 +47,13 @@ export class MyApp {
       component: AttractionsPage
     },
 
-    {
-      title: 'Settings',
-      count: 0,
-      component: SettingPage
-    },
-
-    {
-      title: 'Logout',
-      count: 0,
-      component: LoginPage
-    },
-
-
     // import menu
 
 
   ];
 
   constructor(public platform: Platform) {
-    this.rootPage = WelcomePage;
+    this.rootPage = MainTabsPage;
 
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.

@@ -69847,21 +69847,6 @@ ion-slides .swiper-pagination.hide {
   height: 1rem;
 }
 
-page-activity .card,
-.activity .card {
-  overflow: hidden;
-}
-
-page-activity .card ion-item,
-.activity .card ion-item {
-  padding-left: 0;
-}
-
-page-activity .card .recommends span + span:before,
-.activity .card .recommends span + span:before {
-  content: ", ";
-}
-
 page-attraction-detail,
 .attraction-detail {
   /**
@@ -71060,74 +71045,6 @@ page-modal-filter .stars,
   margin: 5px;
 }
 
-page-my-profile ion-content .header,
-.my-profile ion-content .header {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-page-my-profile ion-content ion-grid,
-.my-profile ion-content ion-grid {
-  padding: 0;
-}
-
-page-my-profile ion-content ion-grid ion-col,
-.my-profile ion-content ion-grid ion-col {
-  padding: 0;
-}
-
-page-my-profile ion-content ion-grid ion-col + ion-col,
-.my-profile ion-content ion-grid ion-col + ion-col {
-  border-left: 1px solid #ECECEC;
-}
-
-page-my-profile ion-content ion-grid ion-col ion-list,
-.my-profile ion-content ion-grid ion-col ion-list {
-  margin-bottom: 0;
-}
-
-page-register .middle-align > div,
-.register .middle-align > div {
-  width: 96%;
-}
-
-page-register ion-list,
-.register ion-list {
-  background: none;
-}
-
-page-register ion-list ion-item,
-.register ion-list ion-item {
-  background: none;
-}
-
-page-register ion-list ion-item ion-input,
-.register ion-list ion-item ion-input {
-  margin-bottom: 1rem;
-  padding: 0 1.2rem;
-  border-radius: 3px;
-  background: rgba(255, 255, 255, 0.3);
-  color: #f4f4f4;
-}
-
-page-register ion-list ion-item ion-input input::-webkit-input-placeholder,
-.register ion-list ion-item ion-input input::-webkit-input-placeholder {
-  color: #AAA;
-}
-
-page-register ion-list ion-item.has-btn ion-label,
-.register ion-list ion-item.has-btn ion-label {
-  margin-right: 0;
-  margin-bottom: 0;
-}
-
-page-register ion-list ion-item.has-btn ion-label .item-button,
-.register ion-list ion-item.has-btn ion-label .item-button {
-  padding: 0 1em;
-  height: 2.8em;
-  font-size: 1.6rem;
-}
-
 page-restaurant-detail,
 .restaurant-detail {
   /**
@@ -71709,44 +71626,4 @@ page-search ion-navbar,
 
 .search .search-cat ion-item h2 {
   font-size: 2rem;
-}
-
-page-welcome .logo,
-.welcome .logo {
-  height: 25%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-page-welcome .logo ion-icon,
-.welcome .logo ion-icon {
-  font-size: 7rem;
-  font-weight: bold;
-}
-
-page-welcome ion-slides,
-.welcome ion-slides {
-  height: 50%;
-}
-
-page-welcome ion-slides ion-icon,
-.welcome ion-slides ion-icon {
-  font-size: 8rem;
-}
-
-page-welcome ion-slides .swiper-pagination-bullet,
-.welcome ion-slides .swiper-pagination-bullet {
-  background: #f4f4f4;
-  width: 12px;
-  height: 12px;
 }

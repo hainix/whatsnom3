@@ -2,8 +2,6 @@ import {Component} from "@angular/core";
 import {NavController} from "ionic-angular";
 import {HomePage} from "../home/home";
 import {SearchPage} from "../search/search";
-import {ActivityPage} from "../activity/activity";
-import {MyProfilePage} from "../my-profile/my-profile";
 
 
 /*
@@ -20,8 +18,6 @@ export class MainTabsPage {
   // set tabs
   public tabHome = HomePage;
   public tabSearch = SearchPage;
-  public tabActivity = ActivityPage;
-  public tabMe = MyProfilePage;
 
   constructor(public nav: NavController) {
   }
